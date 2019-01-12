@@ -6,5 +6,7 @@ A Vigenère cipher implementation in Rust
 ```rs
 let v = Vigenere::new();
 let r = v.encrypt("saluttasdadereqrtttttttttt", "morqwewdti");
-println!("{:?}", r); // "eockpxwvwipsiumvpwmbfhkjpx"
+println!("Encrypted {:?}", r);
+let r2 = v.decrypt(r, "morqwewdti".to_string());
+println!("Decrypted {:?}", r2); // "saluttasdadereqrtttttttttt"
 ```
