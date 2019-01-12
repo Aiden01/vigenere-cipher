@@ -1,6 +1,4 @@
 extern crate nalgebra;
-extern crate typenum;
-use nalgebra::DMatrix;
 
 mod encryptor;
 use self::encryptor::Encryptor;
