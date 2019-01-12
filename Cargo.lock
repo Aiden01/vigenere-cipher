@@ -134,7 +134,7 @@ version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "vigenere-cypher"
+name = "vigenere-cipher"
 version = "0.1.0"
 dependencies = [
  "nalgebra 0.16.13 (registry+https://github.com/rust-lang/crates.io-index)",
