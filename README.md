@@ -4,7 +4,7 @@ A Vigenère cipher implementation in Rust
 ## Example
 
 ```rs
-let encryptor = Encryptor::new();
-let r = encryptor.encrypt("saluttasdadereqrtttttttttt", "morqwewdti");
+let v = Vigenere::new();
+let r = v.encrypt("saluttasdadereqrtttttttttt", "morqwewdti");
 println!("{:?}", r); // "eockpxwvwipsiumvpwmbfhkjpx"
 ```

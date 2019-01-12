@@ -1,10 +1,10 @@
 extern crate nalgebra;
 
-mod encryptor;
-use self::encryptor::Encryptor;
+mod vigenere;
+use self::vigenere::Vigenere;
 
 fn main() {
-    let encryptor = Encryptor::new();
-    let r = encryptor.encrypt("saluttasdadereqrtttttttttt", "morqwewdti");
+    let v = Vigenere::new();
+    let r = v.encrypt("saluttasdadereqrtttttttttt", "morqwewdti");
     println!("{:?}", r);
 }

@@ -7,13 +7,13 @@ type IMatrix = nalgebra::Matrix<
     nalgebra::VecStorage<char, nalgebra::Dynamic, nalgebra::Dynamic>,
 >;
 
-pub struct Encryptor {
+pub struct Vigenere {
     matrix: IMatrix,
 }
 
-impl Encryptor {
-    pub fn new() -> Encryptor {
-        Encryptor {
+impl Vigenere {
+    pub fn new() -> Vigenere {
+        Vigenere {
             matrix: create_matrix(),
         }
     }
