@@ -3,5 +3,11 @@ name = "vigenere-cipher"
 version = "0.1.0"
 authors = ["WebD01 <liangu@protonmail.com>"]
 edition = "2018"
+description = "Vigenere cipher implementation in Rust"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Webd01/vigenere-cipher"
+homepage = "https://github.com/Webd01/vigenere-cipher"
+
 
 [dependencies]
