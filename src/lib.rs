@@ -11,3 +11,11 @@ fn encrypt_string() {
     let key = "computer";
     assert_eq!(vigenere.encrypt(plain, key), "nsydh");
 }
+
+#[test]
+fn decrypt_string() {
+    let vigenere = Vigenere::new();
+    let cipher_text = "nsydh";
+    let key = "computer";
+    assert_eq!(vigenere.decrypt(cipher_text, key), "lemon");
+}
